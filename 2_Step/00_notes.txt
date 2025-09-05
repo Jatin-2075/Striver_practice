@@ -1,0 +1,40 @@
+Ok bro, ekdum crisp summary 👇
+
+### 🔥 Sorting Algorithms in Short
+
+1. **Bubble Sort** → Swap neighbors again & again, big ones bubble to end.
+
+   * Time: O(n²)
+   * Easy but slow.
+
+2. **Selection Sort** → Pick smallest and place at front.
+
+   * Time: O(n²)
+   * Less swapping but still slow.
+
+3. **Insertion Sort** → Insert each element in its right place (like arranging cards).
+
+   * Time: O(n²), but good for small/almost sorted arrays.
+
+4. **Merge Sort** → Divide array in half, sort, then merge.
+
+   * Time: O(n log n)
+   * Very stable and reliable.
+
+5. **Quick Sort** → Choose pivot, partition into smaller/bigger, recurse.
+
+   * Time: O(n log n) average, O(n²) worst-case
+   * Very fast in practice.
+
+👉 Extra:
+
+* **Heap Sort** → Use heap (tree structure), extract max/min one by one.
+* **Counting/Radix/Bucket Sort** → For integers / special cases → can be faster than O(n log n).
+
+⚡ TL;DR:
+
+* Small/easy → Insertion
+* Big & general → Merge or Quick
+* Special (numbers only) → Counting/Radix
+
+Want me to also make a **chart/table comparing all sorts** so you can revise in 10 sec before exam?
